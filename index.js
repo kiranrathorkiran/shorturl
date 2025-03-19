@@ -43,6 +43,6 @@ connectMongoose(process.env.DATABASE_URL)
 
 app.get('/',(req,res)=>
 {
-    res.send("_________________SHORT URL_____________");
+    res.send("_________________SHORTURL_____________");
 })
 app.listen(PORT, () => console.log("server _____________started!!! at port :" + PORT))
